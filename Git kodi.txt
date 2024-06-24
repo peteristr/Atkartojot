@@ -1,0 +1,69 @@
+ls - saraksts
+cd - main'it
+cd ../.. - iet uz augšējo mapi
+touch chapter1.txt - pieveinoju txt failu
+code chapter1.txt - atvērt caur vscode failu
+git init - git palaiž working directory
+ls -a - parāda slēptos sarakstus mapē
+
+!!! lai varētu izsekot ko comitiot ir
+jāizveido staging area
+
+git status -rāda ar sakrano ,kas nav staging
+git add chapter1.txt - pievieno stage area
+git status- lai parādītos zaļš
+!!! lai comitotu izmaiņas ir jāraksta ar tekstu
+git commit -m"Fails ielade commit chapter 1 ielādēts"
+!!! lai redzētu kādi comiti bija
+git log
+git add . - lai pievienotu visu kas att folderī ir
+git diff chapter2.txt - lai parādītu izmainās ar to, kas ir gitā un ar to kas local
+saglabāts
+git checkout chapter2.txt - atgriež pēē
+
+iestatīt git
+git remote add origin https://github.com/peteristr/Stasts.git
+git branch -M main
+git push -u origin main -ielādē versiju gitā
+
+ielādes ceļš
+-git add
+-git commit
+-git push
+
+slēpts fails
+touch .gitignore
+!!!Lai undo pēdējo dar'bibu no stagin area
+git rm --cached -r . c - visus undo
+
+
+!!!klonēšana lai ir sava kopija savām vajadzībām
+git clone url
+git clone httpls://sdfsdfsdf
+
+!!Lai parelēli varētu rediģēt kodu veido branch, kas 
+git branch paralelais-ficas
+git branch - rādak kād branchi ir
+git checkout paralelais-ficas - pāriet uz noteiktu brnanch
+!!! tad var pieslēgties pie faila vai uzreiz sākt to labot
+pēc labojumiem:
+git add .
+git commit -m"Otrais branch"
+git status 
+git log
+
+!! lai pēc fīču pārbaudes var pielikt pie galvenā koda
+
+git checkout main - jāpieslēdzas pie galveā main koda rindas
+git merge paralelais-ficas - norāda kuras izmaiņas no kura branch pielikt
+
+
+
+
+
+
+
+
+
+
+
