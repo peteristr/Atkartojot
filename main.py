@@ -16,9 +16,10 @@ print(num1 + num2)
 rezultats = int(num1 + num2)
 print(rezultats)
 
-inpu = "Biete's"
+inpu2222222222 = "Biete's"
 print(len(inpu))
 
 name = input("Kā tevi sauc? \n")
 
 print("Tavas grupas nosaukums ir " + name + " grupa" )
+
