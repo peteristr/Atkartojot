@@ -2,7 +2,6 @@ print("Hy" + "Kā iet?")
 print("Hy " + "Kā iet?")
 print("Hy" + " " + "Kā iet?")
 
-kad ievievieto vērtības
 
 print("Tevi sauc (v1)" + input("Vārds ir"))
 
