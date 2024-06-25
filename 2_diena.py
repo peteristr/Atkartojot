@@ -34,13 +34,25 @@
 # print(score)
 #_________________________________Tip Calcuslator______________
 
-print("Welcom the tip calculator!")
-bill = float(input("What was the total bill? $"))
-tip = float(input("How much tip would you like to give? 10, 12 ar 15? "))
-pers = int(input("How manu people to split the bill? "))
-# print(type(bill))
-# print(type(tip))
-amount1 = float((tip/100) * bill)
-amount2 = round((amount1 + bill)/pers, 2)
-print(f"Each person should pay: ${amount2}")
+# print("Welcom the tip calculator!")
+# bill = float(input("What was the total bill? $"))
+# tip = float(input("How much tip would you like to give? 10, 12 ar 15? "))
+# pers = int(input("How manu people to split the bill? "))
+# # print(type(bill))
+# # print(type(tip))
+# amount1 = float((tip/100) * bill)
+# amount2 = round((amount1 + bill)/pers, 2)
+# print(f"Each person should pay: ${amount2}")
+#_________________________________Tip Calcuslator______________
+# num1 = 6
+# num2 =2
+# rez = 6/2
+# print(rez)
 
+num1 = 5
+num2 =2
+rez = int(num1 / num2) #bez atlikuma
+if rez % 2 == 0: #jā cipars dalot ar 2 bez atlikuma
+    print("Pāra")
+else:
+    print("nepāra")
