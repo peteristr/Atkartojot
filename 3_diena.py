@@ -1,15 +1,25 @@
-# print("Welcome to the rollercoastrer!")
-# height = int(input("What is your heigt in cm? "))
-#
+print("Welcome to the rollercoastrer!")
+height = int(input("What is your heigt in cm? "))
+
+# bill = 0
 # if height >= 120: #tikai ja garums ir virs 120 cm citādi else par mazu
 #     print("Garāks par nepieciešamo. ") # ja garāks, tad prasa vecumu
 #     vecums = int(input("Cik gadi? "))
 #     if vecums >18 : #
-#         print("Jāmaksā ir 12$")
+#         # print("Jāmaksā ir 12$")
+#         bill += 12
 #     elif vecums >=12 or vecums == 18:
-#         print("Jāmaksā ir 7$")
+#         # print("Jāmaksā ir 7$")
+#         bill += 7
 #     elif vecums < 12:
-#         print("Tev kā bērnam jāmaksā 5$")
+#         # print("Tev kā bērnam jāmaksā 5$")
+#         bill += 5
+#     foto = input("Vai vēlieties bildi? Y vai N ")
+#     if foto == "Y":
+#         bill += 3
+#         print(f"Papildus maksa ir 3 $ kopā ar biļeti {bill}")
+#     else:
+#         print(f"Apmaksājiet rēķinu {bill}")
 # else:
 #     print("Sorry tu esi par mazu!")
 
@@ -73,4 +83,24 @@
 # Example Output 2
 # Not leap year
 
-#_____________________________Leep years (īsais garias vads)____________
+#_________________________________________
+
+# Nosacījumi kuriem visiem jāiestājas:
+# if aaa:
+#     kaut kas
+# if aaa:
+#     kaut kas
+# if aaa:
+#     kaut kas
+#
+# Nosacījumi, kur kādam jāiestājas:
+# if aaa:
+#     kaut
+#     kas
+# elif aaa:
+#     kaut
+#     kas
+# else:
+#     kaut
+#     kas
+#_________________________________________Picas pasūtīšana________________________
