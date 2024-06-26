@@ -21,7 +21,7 @@
 # print(8/3)
 # print(round(8/3))
 # print(round(8/3, 4))
-# print(8//3) #uzreiz ar divām // veselus dalījumus dod
+# print(8//3) #uzreiz ar divām // veselus dalījumus dod ;šis noderēs pie leap year 3.dienā
 # print(type(8//3))
 
 # result = 4/0.7
@@ -34,7 +34,7 @@
 # print(score)
 #_________________________________Tip Calcuslator______________
 
-# print("Welcom the tip calculator!")
+# print("Welcome the tip calculator!")
 # bill = float(input("What was the total bill? $"))
 # tip = float(input("How much tip would you like to give? 10, 12 ar 15? "))
 # pers = int(input("How manu people to split the bill? "))
