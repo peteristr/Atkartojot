@@ -56,3 +56,5 @@ if rez % 2 == 0: #jā cipars dalot ar 2 bez atlikuma
     print("Pāra")
 else:
     print("nepāra")
+
+#TODO Otrā diena dip calculator, bez atlikuma aprēķini

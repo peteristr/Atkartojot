@@ -25,7 +25,7 @@
 
 # ja kāds ir zem 18 vai vienāds tad $7
 # ja kāds ir virs 18 tad 12$
-
+#TODO - 1 - Tešā diena karuselis
 #_____________________________BMI calculator____________
 # height = float(input("Lūdzu ievadi garumu metros, piem 1.65. "))
 # weight = int(input("Lūdzu ievadi svaru kilogramos, piem 72. "))
@@ -35,6 +35,7 @@
 # print(type(BMI))
 # noapaļots = (round(BMI, 2))
 # print(f"Tavs svara BMI indeks ir: {noapaļots} %")
+#TODO - 2 - Tešā diena karuselis BMI indekss
 #_____________________________Leep years (īsais garias vads)____________
 
 # year = 1989
@@ -82,7 +83,7 @@
 # 1989
 # Example Output 2
 # Not leap year
-
+#TODO - 3 - Tešā diena pāra nepāra gads
 #_________________________________________
 
 # Nosacījumi kuriem visiem jāiestājas:
@@ -160,3 +161,9 @@ elif size == "L":
         print(f"Thank you for choosing Python Pizza Deliveries! \nYour final bill is: ${bill}.")
     else:
         print(f"Thank you for choosing Python Pizza Deliveries! \nYour final bill is: ${bill}.")
+
+
+
+
+
+#TODO - 4 - Tešā diena karuselis picas pasūtīšana

@@ -22,3 +22,5 @@ print(len(inpu))
 name = input("Kā tevi sauc? \n")
 
 print("Tavas grupas nosaukums ir " + name + " grupa" )
+
+#TODO Pirmā diena
