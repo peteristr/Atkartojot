@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8790d079-20a0-4359-9c08-908459315a5c" name="Changes" comment="3.diena  if elif rolercoster/leap year/picas pasūtīšana">
+    <list default="true" id="8790d079-20a0-4359-9c08-908459315a5c" name="Changes" comment="3.diena  if elif rolercoster/leap year/picas pasūtīšana ar todo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3_diena.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_diena.py" afterDir="false" />
     </list>
@@ -33,6 +33,7 @@
   "keyToString": {
     "Python.2_diena.executor": "Run",
     "Python.3_diena.executor": "Run",
+    "Python.main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master"
@@ -83,9 +84,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Atkartojot" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.3_diena" />
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.2_diena" />
       </list>
     </recent_temporary>
@@ -186,7 +210,23 @@
       <option name="project" value="LOCAL" />
       <updated>1719389468677</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="3.diena  if elif rolercoster/leap year/picas pasūtīšana">
+      <option name="closed" value="true" />
+      <created>1719407450165</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1719407450166</updated>
+    </task>
+    <task id="LOCAL-00012" summary="3.diena  if elif rolercoster/leap year/picas pasūtīšana ar todo">
+      <option name="closed" value="true" />
+      <created>1719407873635</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1719407873635</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -220,6 +260,7 @@
     <MESSAGE value="3.diena  if elif rolercoster" />
     <MESSAGE value="3.diena  if elif rolercoster/leap year/" />
     <MESSAGE value="3.diena  if elif rolercoster/leap year/picas pasūtīšana" />
-    <option name="LAST_COMMIT_MESSAGE" value="3.diena  if elif rolercoster/leap year/picas pasūtīšana" />
+    <MESSAGE value="3.diena  if elif rolercoster/leap year/picas pasūtīšana ar todo" />
+    <option name="LAST_COMMIT_MESSAGE" value="3.diena  if elif rolercoster/leap year/picas pasūtīšana ar todo" />
   </component>
 </project>
