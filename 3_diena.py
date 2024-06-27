@@ -296,6 +296,26 @@ ____/______/______/______/__"=._o--._   ;o|o;     _._;o;____/______/______/____
 ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 /______/______/______/______/______/______/______/______/______/______/_____ /
 *******************************************************************************
-''')
-print("Welcome to Treasure Island.")
-print("Your mission is to find the treasure.")
+# ''')
+# print("Welcome to Treasure Island.")
+# print("Your mission is to find the treasure.")
+# choose_1 = input("Left or right? L OR R ")
+# if choose_1 == "L":
+#     choose_2 = input("Sim or wait? S or W ")
+#     if choose_2 == "W":
+#         choose_3 = input("Whisch door? Red, Yelow or Blue or other color? R or B or Y ")
+#         if choose_3 == "Y":
+#             print("You Win")
+#         elif choose_3 == "B":
+#             print("Eaten by beast. Game Over.")
+#         elif choose_3 == "R":
+#             print("Burnet by fire.Game Over. ")
+#         else:
+#             print("Game Over")
+#     else:
+#         print("Attacket by trout. Game Over.")
+#
+# else:
+#     print("Fail into a hole. Game Over")
+#
+# #TODO - 6 - Trešā diena treasure iland (if, elif, else)
