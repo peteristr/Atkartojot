@@ -1,5 +1,7 @@
 import random
 
+import pls
+
 # number = random.randint(1,100)
 # print(number)
 #
@@ -98,3 +100,91 @@ import random
 # print(f"{random_payer} is going to buy the meal today! ")
 # TODO - 2 - Ceturtā diena random bill player (random.choose from list) arī lietas par to kā papilidnāt list [] aizvietot, parādīt
 #______________________________________________________
+
+# names = ('Angela', 'Ben', 'Jenny', 'Michael', 'Chloe')
+# import random
+# #Get the total number of items in list
+# num_items = len(names)
+# #Ganerate random numbers between 0 and the last index.
+# random_choise = random.randint(0, num_items -1)
+# #Choose and print a random name.
+# print(names[random_choise])
+# print(names[4])
+# print(names[num_items - 1])
+# TODO - 3 - Ceturtā diena random name (random.choose from list) arī lietas par to kā papilidnāt list [] aizvietot, parādīt
+#______________________________________________________
+# names = ['Angela', 'Ben', 'Jenny', 'Michael', 'Chloe']
+# last_names = ['Ops', 'Bsdfg', 'Opsse', 'Uptom', 'Kolton']
+# kopejs_vards = [names, last_names] #nested lists
+# print(kopejs_vards)
+# #https://app.auditorium.ai/lesson/eelyNMYJKXeNJAbjssSEQz0m88XvnhX6/e806e25c-5f84-4d7c-9c7c-2c0fcd0bfe84?sl=8313e98d-83c7-40af-a89e-91e364990f7c&st=efd8a0a4-7734-42d7-9b08-294517bd6a6a
+# line1 = ['[]', '[]', '[]']
+# line2 = ['[]', '[]', '[]']
+# line3 = ['[]', '[]', '[]']
+#
+# map = [line1, line2, line3]
+# print("Hiding your treasure@ X mark the spot.")
+# position = input() #Where do you wnat to put the treasure?
+# #Jāiezīmē B3 kas ir otrajā kolonā  otrais un 3 rinda
+# letter = position[0].lower()
+# abc = ['a','b','c']
+# letter_index = abc.index(letter) #prieš input salīdzināšanas
+# # priekš numura norādīšnas
+# #ja input ir B, tad index ir jābūt
+# number_index = int(position[1]) - 1
+# map[number_index][letter_index] = "x"
+#
+# print(f"{line1}\n {line2}\n {line3}")
+# TODO - 4 - Ceturtā diena Hiding treasure with x (choose from list) arī lietas par to kā papilidnāt list [] aizvietot, parādīt
+#______________________________________________________
+rock = '''
+    _______
+---'   ____)
+      (_____)
+      (_____)
+      (____)
+---.__(___)
+'''
+
+paper = '''
+    _______
+---'   ____)____
+          ______)
+          _______)
+         _______)
+---.__________)
+'''
+
+scissors = '''
+    _______
+---'   ____)____
+          ______)
+       __________)
+      (____)
+---.__(___)
+'''
+
+
+import random
+choise = [rock, paper, scissors]
+num_items = len(choise)
+random_choise = random.randint(0, 2)
+players_choose = int(input(f"What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.\n"))
+print(choise[players_choose])
+game_on = True
+if random_choise == players_choose:
+    print("Draw")
+    # print(f"UZVARĒJA {random_choise} vs {players_choose}")
+elif random_choise < players_choose and players_choose !=0:
+    # print(f"UZVERĒJA {random_choise} vs {players_choose}")
+    print("You win")
+    game_on = False
+else:
+    # print(f"UZVERĒJA {random_choise} vs {players_choose}")
+    print("LOST")
+    game_on = False
+
+print(choise[random_choise]) #no saraksta paņem random izvēlni
+
+# TODO - 5 - Ceturtā diena Rock paper scisors (if, list,) arī lietas par to kā papilidnāt list [] aizvietot, parādīt
+#______________________

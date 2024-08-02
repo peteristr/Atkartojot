@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8790d079-20a0-4359-9c08-908459315a5c" name="Changes" comment="4.diena  heads and tail ar todo">
+    <list default="true" id="8790d079-20a0-4359-9c08-908459315a5c" name="Changes" comment="4.diena  heads and tail/random payer ar todo">
+      <change afterPath="$PROJECT_DIR$/5_diena.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_6_24_2024_5_47_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_6_24_2024_5_47_PM__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_diena.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_diena.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_diena.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_diena.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4.diena.py" beforeDir="false" afterPath="$PROJECT_DIR$/4.diena.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_diena.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,18 +35,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.2_diena.executor": "Run",
-    "Python.3_diena.executor": "Run",
-    "Python.4.diena.executor": "Run",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.2_diena.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3_diena.executor&quot;: &quot;Run&quot;,
+    &quot;Python.4.diena.executor&quot;: &quot;Run&quot;,
+    &quot;Python.5_diena.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Python.4.diena">
+}</component>
+  <component name="RunManager" selected="Python.5_diena">
+    <configuration name="1_diena" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Atkartojot" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\peteris.troksa\Documents\Prgogrammēšana\Atkartojot\1_diena.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="2_diena" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Atkartojot" />
       <option name="ENV_FILES" value="" />
@@ -107,7 +136,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="5_diena" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Atkartojot" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -120,7 +149,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5_diena.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -131,9 +160,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.5_diena" />
         <item itemvalue="Python.4.diena" />
         <item itemvalue="Python.3_diena" />
-        <item itemvalue="Python.main" />
+        <item itemvalue="Python.1_diena" />
         <item itemvalue="Python.2_diena" />
       </list>
     </recent_temporary>
@@ -274,7 +304,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719494070065</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="4.diena  heads and tail/random payer ar todo">
+      <option name="closed" value="true" />
+      <created>1719495876418</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1719495876419</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -312,6 +350,7 @@
     <MESSAGE value="3.diena  if elif rolercoster/leap year/picas pasūtīšana/love calculator ar todo" />
     <MESSAGE value="3.diena  if elif rolercoster/leap year/picas pasūtīšana/love calculator/tresure iland ar todo" />
     <MESSAGE value="4.diena  heads and tail ar todo" />
-    <option name="LAST_COMMIT_MESSAGE" value="4.diena  heads and tail ar todo" />
+    <MESSAGE value="4.diena  heads and tail/random payer ar todo" />
+    <option name="LAST_COMMIT_MESSAGE" value="4.diena  heads and tail/random payer ar todo" />
   </component>
 </project>

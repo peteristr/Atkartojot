@@ -20,12 +20,12 @@
 #_____________________________________________
 # print(8/3)
 # print(round(8/3))
-# print(round(8/3, 4))
+# print(round(8/3, 3))
 # print(8//3) #uzreiz ar divām // veselus dalījumus dod ;šis noderēs pie leap year 3.dienā
 # print(type(8//3))
 
 # result = 4/0.7
-# result /= 2
+# result += 2
 # print(result)
 
 # score = 0
@@ -33,7 +33,7 @@
 # score += 1
 # print(score)
 #_________________________________Tip Calcuslator______________
-
+#
 # print("Welcome the tip calculator!")
 # bill = float(input("What was the total bill? $"))
 # tip = float(input("How much tip would you like to give? 10, 12 ar 15? "))
@@ -41,7 +41,7 @@
 # # print(type(bill))
 # # print(type(tip))
 # amount1 = float((tip/100) * bill)
-# amount2 = round((amount1 + bill)/pers, 2)
+# amount2 = round((amount1 + bill)/pers, 2) #noapaļot līdz 2 zīmēm aiz komanta
 # print(f"Each person should pay: ${amount2}")
 #_________________________________Tip Calcuslator______________
 # num1 = 6

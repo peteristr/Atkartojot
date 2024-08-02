@@ -1,6 +1,6 @@
 # print("Welcome to the rollercoastrer!")
 # height = int(input("What is your heigt in cm? "))
-
+#
 # bill = 0
 # if height >= 120: #tikai ja garums ir virs 120 cm citādi else par mazu
 #     print("Garāks par nepieciešamo. ") # ja garāks, tad prasa vecumu
@@ -126,44 +126,44 @@
 # Thank you for choosing Python Pizza Deliveries!
 # Your final bill is: $28.
 
-# print("Thank you for choosing Python Pizza Deliveries!")
-# size = input("What size pizza do you want? S, M, or L :  ")
-# add_pepperoni = input("Do you want pepperoni? Y or N ")
-# extra_cheese = input("Do you want extra cheese? Y or N ")
-#
-#
-#
-# bill = 0
-# if size == "S":
-#     bill += 15
-#     if add_pepperoni == "Y":
-#         bill += 2
-#     if extra_cheese == "Y":
-#         bill += 1
-#         print(f"Thank you for choosing Python Pizza Deliveries! \nYour final bill is: ${bill}.")
-#     else:
-#         print(f"Thank you for choosing Python Pizza Deliveries! \nYour final bill is: ${bill}.")
-# elif size == "M":
-#     bill +=20
-#     if add_pepperoni == "Y":
-#         bill +=3
-#     if extra_cheese == "Y":
-#         bill += 1
-#         print(f"Thank you for choosing Python Pizza Deliveries! \nYour final bill is: ${bill}.")
-#     else:
-#         print(f"Thank you for choosing Python Pizza Deliveries! \nYour final bill is: ${bill}.")
-# elif size == "L":
-#     bill +=25
-#     if add_pepperoni == "Y":
-#         bill +=3
-#     if extra_cheese == "Y":
-#         bill += 1
-#         print(f"Thank you for choosing Python Pizza Deliveries! \nYour final bill is: ${bill}.")
-#     else:
-#         print(f"Thank you for choosing Python Pizza Deliveries! \nYour final bill is: ${bill}.")
-#
-#
-#
+print("Thank you for choosing Python Pizza Deliveries!")
+size = input("What size pizza do you want? S, M, or L :  ")
+add_pepperoni = input("Do you want pepperoni? Y or N ")
+extra_cheese = input("Do you want extra cheese? Y or N ")
+
+
+
+bill = 0
+if size == "S":
+    bill += 15
+    if add_pepperoni == "Y":
+        bill += 2
+    if extra_cheese == "Y":
+        bill += 1
+        print(f"Thank you for choosing Python Pizza Deliveries! \nYour final bill is: ${bill}.")
+    else:
+        print(f"Thank you for choosing Python Pizza Deliveries! \nYour final bill is: ${bill}.")
+elif size == "M":
+    bill +=20
+    if add_pepperoni == "Y":
+        bill +=3
+    if extra_cheese == "Y":
+        bill += 1
+        print(f"Thank you for choosing Python Pizza Deliveries! \nYour final bill is: ${bill}.")
+    else:
+        print(f"Thank you for choosing Python Pizza Deliveries! \nYour final bill is: ${bill}.")
+elif size == "L":
+    bill +=25
+    if add_pepperoni == "Y":
+        bill +=3
+    if extra_cheese == "Y":
+        bill += 1
+        print(f"Thank you for choosing Python Pizza Deliveries! \nYour final bill is: ${bill}.")
+    else:
+        print(f"Thank you for choosing Python Pizza Deliveries! \nYour final bill is: ${bill}.")
+
+
+
 
 
 #TODO - 4 - Tešā diena karuselis picas pasūtīšana
@@ -274,29 +274,29 @@
 # Your score is 73.
 #TODO - 5 - Trešā diena love calculator(count letters convert to int, change to lover or upper case, if statements, += using)
 
-
-print('''
-*******************************************************************************
-          |                   |                  |                     |
- _________|________________.=""_;=.______________|_____________________|_______
-|                   |  ,-"_,=""     `"=.|                  |
-|___________________|__"=._o`"-._        `"=.______________|___________________
-          |                `"=._o`"=._      _`"=._                     |
- _________|_____________________:=._o "=._."_.-="'"=.__________________|_______
-|                   |    __.--" , ; `"=._o." ,-"""-._ ".   |
-|___________________|_._"  ,. .` ` `` ,  `"-._"-._   ". '__|___________________
-          |           |o`"=._` , "` `; .". ,  "-._"-._; ;              |
- _________|___________| ;`-.o`"=._; ." ` '`."\` . "-._ /_______________|_______
-|                   | |o;    `"-.o`"=._``  '` " ,__.--o;   |
-|___________________|_| ;     (#) `-.o `"=.`_.--"_o.-; ;___|___________________
-____/______/______/___|o;._    "      `".o|o_.--"    ;o;____/______/______/____
-/______/______/______/_"=._o--._        ; | ;        ; ;/______/______/______/_
-____/______/______/______/__"=._o--._   ;o|o;     _._;o;____/______/______/____
-/______/______/______/______/____"=._o._; | ;_.--"o.--"_/______/______/______/_
-____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
-/______/______/______/______/______/______/______/______/______/______/_____ /
-*******************************************************************************
-# ''')
+#
+# print('''
+# *******************************************************************************
+#           |                   |                  |                     |
+#  _________|________________.=""_;=.______________|_____________________|_______
+# |                   |  ,-"_,=""     `"=.|                  |
+# |___________________|__"=._o`"-._        `"=.______________|___________________
+#           |                `"=._o`"=._      _`"=._                     |
+#  _________|_____________________:=._o "=._."_.-="'"=.__________________|_______
+# |                   |    __.--" , ; `"=._o." ,-"""-._ ".   |
+# |___________________|_._"  ,. .` ` `` ,  `"-._"-._   ". '__|___________________
+#           |           |o`"=._` , "` `; .". ,  "-._"-._; ;              |
+#  _________|___________| ;`-.o`"=._; ." ` '`."\` . "-._ /_______________|_______
+# |                   | |o;    `"-.o`"=._``  '` " ,__.--o;   |
+# |___________________|_| ;     (#) `-.o `"=.`_.--"_o.-; ;___|___________________
+# ____/______/______/___|o;._    "      `".o|o_.--"    ;o;____/______/______/____
+# /______/______/______/_"=._o--._        ; | ;        ; ;/______/______/______/_
+# ____/______/______/______/__"=._o--._   ;o|o;     _._;o;____/______/______/____
+# /______/______/______/______/____"=._o._; | ;_.--"o.--"_/______/______/______/_
+# ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
+# /______/______/______/______/______/______/______/______/______/______/_____ /
+# *******************************************************************************
+# # ''')
 # print("Welcome to Treasure Island.")
 # print("Your mission is to find the treasure.")
 # choose_1 = input("Left or right? L OR R ")
